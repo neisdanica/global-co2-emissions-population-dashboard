@@ -1,0 +1,63 @@
+/* Global Styles */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Dashboard Container */
+.dashboard-container {
+    margin: 30px;  /* Space between the screen edge and the dashboard */
+    padding: 20px;  /* Padding inside the dashboard */
+    border: 2px solid white;  /* White border around the entire dashboard */
+    border-radius: 10px;  /* Rounded corners for the border */
+    background-color: white;  /* White background for the dashboard */
+}
+
+/* Dashboard Title */
+.dashboard-title {
+    background-color: #0277bd;  /* Royal Blue background */
+    color: white;  /* White font color */
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 0px;  /* Space between title and tabs */
+    font-size: 24px;
+}
+
+/* Tabs Styles */
+/* Target the unselected tabs */
+.dash-tabs .dcc_Tab {
+    background-color: #e0f7fa !important;  /* Light Blue background for unselected tabs */
+    color: #0277bd !important;  /* Royal Blue font color for unselected tabs */
+    border: 1px solid black !important;  /* Black border for unselected tabs */
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Target the selected tab */
+.dash-tabs .dcc_Tab--selected {
+    background-color: #0277bd !important;  /* Royal Blue background for selected tab */
+    color: white !important;  /* White font color for selected tab */
+    border: 1px solid black !important;  /* Black border for selected tabs */
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Tabs Container */
+.dash-tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;  /* Space between tabs and the content */
+}
+
+/* Graph Styles */
+.dcc-Graph {
+    border: none;
+}
